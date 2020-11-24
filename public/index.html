@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+
+    <link rel="icon" href="IMG/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!--EXTRAS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="scripts/jquery-3.2.1.js"></script>
+    <!--EXTRAS-->
+
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--INICIO DE BANNER-->
+    <div id="banner">
+      <!--INICIO DE CONTAINER-->
+      <div class="container-fluid">
+        <!--INICIO DE HEADER-->
+        <div id="header">
+          <!--INICIO DE MENU-->
+          <div id="menu">
+
+            <nav class="navbar navbar-expand-lg  fixed-top">
+                <!-- Brand/logo -->
+                <!-- <div class="container"> -->
+                <a class="navbar-brand" href="#Inicio">
+                  <img src="IMG/Logo.png" alt="logo" style="width:40px;">
+                </a>
+
+                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                <!-- Links -->
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Inicio"> <i class="fas fa-home fa-lg"></i> INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#SobreMi"><i class="fas fa-user fa-lg"></i> ACERCA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#CV"><i class="fas fa-file-alt fa-lg"></i> CURRÍCULUM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Proyectos"><i class="fas fa-briefcase fa-lg"></i> PROYECTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto"> <i class="fas fa-address-card fa-lg"></i> CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="PAGES/CRUD.html"> <i class="fas fa-folder fa-lg"></i> CRUD</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="PAGES/Sesion.html"> <i class="fas fa-user-circle fa-lg"></i> LOG IN</a>
+                            </li>
+                        </ul>
+                    </div>
+                <!-- </div>  -->
+            </nav> 
+            
+        
+          <!--FIN DE MENU-->
+
+          <!--INICO DE JUMBOTRON-->
+        <div class="container-fluid" style="background-image: url('IMG/Foto.png')" id="Inicial">
+            <div class="col-md-3 col-lg-12 text-center " >
+                <div id="Home">
+                <h1>Game designer</h1>
+                <p>Karla Michelle Márquez Ruiz</p>
+                <div class="Redes">
+                    <ul class="list-unstyled list-inline text-center">
+                            <li class="list-inline-item">
+                                    <a class="btn-floating btn-lg btn-fb rounded-circle text-center" type="button" role="button" href="https://www.facebook.com/karla.mmr"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                    <a class="btn-floating btn-lg btn-ins rounded-circle text-center" type="button" role="button" href="https://www.instagram.com/mmrkarla/?hl=es-la"><i class="fab fa-instagram" ></i></a>
+                            </li>
+                    </ul>
+                   <!--  <ul id="bottom">
+                        <li><a title="Facebook" data-toggle="tooltip" class="rounded-circle" href="https://www.facebook.com/karla.mmr"><i class="fab fa-facebook fa-lg"></i></a></li>
+                        <li><a title="Instagram" data-toggle="tooltip" class="rounded-circle" href="https://www.instagram.com/mmrkarla/?hl=es-la"><i class="fab fa-instagram fa-lg"></i></a></li>
+                    </ul> -->
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+         <!--FIN DE JUMBOTRON-->
+         
+<!--INICIO SOBRE MI-->
+
+<div id="SobreMi">
+<div class="content-gap">
+   
+        
+        <div class="main-head">
+        <div class="col-lg-3 col-md-3  offset-md-4" id="AcercaTitle" >
+            <h2>ACERCA DE MI</h2>
+        </div>
+      </div>
+        
+        <div class="row" id="Acerca">
+            <div class="col-md-4">
+        <p>Soy una estudiante de animación y videojuegos con experiencia
+        en desarrollo multimedia para redes y creación de cursos
+        online, además tengo conocimientos acerca de diversos
+        lenguajes de programación.</p>
+                <!-- <img src="images/signature.png" alt=""> -->
+            </div>
+            <div class="col-md-8">
+                <div class="col-lg-2 col-sm-3" class="sub-head" id="Info">Información</div>
+                <div class="author-desk">
+                    <table class="table table-striped col-md-6 col-sm-6 col-xs-12">
+                        <tbody>
+                          <tr>
+                            <td>Nombre : Karla Michelle Márquez Ruiz</td>
+                          </tr>
+                          <tr>
+                            <td>Edad : 21 Años</td>
+                          </tr>
+                          <tr>
+                            <td>Formación : Estudiante de Ing. en Animación y Videojuegos</td>
+                          </tr>
+                        </tbody>
+                        
+                      </table>
+               <!--      <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="author-info" id="Lista-Info">
+                                <ul>
+                                    <li>Nombre : Karla Michelle Márquez Ruiz</li>
+                                    <li>Edad : 21 Años</li>
+                                    <li>Formación : Estudiante de Ingeniería de Animación Digital y Videouegos</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>  
+        </div>
+    </div>
+  </div>
+
+<!-- FIN SOBRE MI-->
+          <div class="clear"></div>
+        </div>
+        <!--FIN DE HEADER-->
+
+      
+              <!--FIN DE Col- 8-->
+           <!-- </div>-->
+            <!--FIN DE ROW-->
+         <!-- </div>-->
+          <!--FIN DE CONTENT-->
+          <div class="clear"></div>
+        </div>
+        <!--FIN DE MAIN-->
+
+<!--INICIA CV-->
+<div id="CV">
+    <div class="content-gap">
+            <div class="main-head ">
+                <div class="col-lg-3 col-md-3  offset-md-4 " >
+                <h2>CURRÍCULUM</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="sub-head">Formación</div><p><br></p> 
+
+
+                    <div class="experience-wrap education">
+                        <div class="date-wrap">
+                            Enero 2018 - Actual
+                        </div>
+                        <div class="text-wrap">
+                            <div class="organization-name">
+                                <h4>Universidad Panamericana</h4>
+                                <h5>ING. Animación y Videojuegos</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-wrap education">
+                            <p><br></p>
+                        <div class="date-wrap">
+                            Agosto 2014 - Junio 2017
+                        </div>
+                        <div class="text-wrap">
+                            <div class="organization-name">
+                                <h4>Instituto Tecnológico y Estudios Superiores de Monterrey - Campus Ciudad de México</h4>
+                                <h5>Bachillerato Bicultural</h5>
+                                <p><br></p>
+                            </div>
+                        </div>   
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-lg-6">
+                    <div class="sub-head">Experiencia Laboral</div> <p><br></p>
+
+                    <div class="experience-wrap experience">
+                        <div class="date-wrap">
+                            Abril 2019 - Actual
+                        </div>
+                        <div class="text-wrap">
+                            <div class="organization-name">
+                                <h4>Becaria en Multimedia en Smart Center</h4>
+                                <h5>Universidad Panamericana</h5>
+                            </div>
+                            <div class="text-inner">
+                                Realización de postales, infografías y videos informativos.
+                                Desarrollo de contenido visual para redes sociales.
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="experience-wrap experience">
+                            <p><br></p>
+                        <div class="date-wrap">
+                            Ene 2019 - Jul 2019
+                        </div>
+                        <div class="text-wrap">
+                            <div class="organization-name">
+                                <h4>Servicio Social en Multimedia</h4>
+                                <h5>DOMUS Instituto de Autismo</h5>
+                            </div>
+                            <div class="text-inner">
+                                Desarrollo de contenido para redes sociales.
+                                Desarrollo de contenido para redes sociales.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-wrap experience">
+                        <div class="date-wrap">
+                            May 2018
+                        </div>
+                        <div class="text-wrap">
+                            <div class="organization-name">
+                                <h4>Asistente de profesor en el proyecto "Patrones Hermosos"</h4>
+                                <h5>Universidad Panamericana & Massachusetts
+                                    Institute of Technology</h5>
+                            </div>
+                            <div class="text-inner">
+                                Apoyo a niñas en el desarrollo de códigos en HTML.
+                                Realización de actividades didácticas para la compresión del tema.
+                            Traducción del tema visto en clase 
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </div>
+</div>
+<!--FINAL CV-->
+
+
+
+<!--Descargar CV-->
+<!-- <div class="download-resume parallax-area parallax-image text-center container"  id="DescargaCV1" >
+            <a class="  btn-border-round dark" id="DescargaCV" href="FILES/KMMRCV.pdf">DESCARGAR CV</a>
+</div> -->
+<div class="text-center container"  id="DescargaCV1" >
+        <a class="  btn-border-round dark" id="DescargaCV" href="FILES/KMMRCV.pdf">DESCARGAR CV</a>
+</div>
+
+
+<!--FIN de descragar CV-->
+
+<!--INICIO HABILIDADES-->
+<div id="Habilidades" class="page-content">
+    <div class="content-gap">
+        
+            <div class="main-head">
+                <div class="col-lg-3 col-md-3  offset-md-4 " >
+                <h2 >HABILIDADES</h2>
+                </div>
+            </div>
+            <div class="col-lg-1 col-sm-3 col-lg-2">  
+                <div  class="sub-head">Software</div>
+                  </div>
+            <div class="row">
+              
+                <div class="col-md-6 col-xs-12">
+                    <div class="row piecharts" id="pie-charts">
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg">
+                            <!--EJERMPLO CHART JS-->
+                            <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
+                            <!--EJERMPLO CHART JS-->
+                                <p>Intermedio</p>     
+                            </span>
+                            <div class="skill-name">Photoshop</div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg"> 
+                              <p>Intermedio</p>
+                                
+                            </span>
+                            <div class="skill-name">Illustrator</div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg">
+                                <p>Intermedio</p>                                          
+                            </span>
+                            <div class="skill-name">HTML5/CSS</div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg">
+                                <p>Intermedio</p>                                         
+                            </span>
+                            <div class="skill-name">C++</div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg">
+                                <p>Intermedio</p>                                           
+                            </span>
+                            <div class="skill-name">C#</div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg">
+                                <p>Intermedio</p>                                            
+                            </span>
+                            <div class="skill-name">Affter Effects</div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg">
+                                <p>Intermedio</p>                                            
+                            </span>
+                            <div class="skill-name">Maya</div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg">
+                                <p>Intermedio</p>                                            
+                            </span>
+                            <div class="skill-name">Substance</div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg">
+                                <p>Intermedio</p>                                        
+                            </span>
+                            <div class="skill-name">Arduino</div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-md-4">
+                            <span class="chart" style="--v:-90deg">
+                                <p>Intermedio</p>                                           
+                            </span>
+                            <div class="skill-name">Hype</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-1 col-sm-3 col-lg-2 ">  
+                    <div class="sub-head">Idiomas </div>
+                </div>
+            
+            
+                
+               
+              
+
+                <div class="col-md-4 col-xs-12">
+                   <!--<div class="sub-head">Idiomas </div>--> 
+                    <p><br>Inglés</p>
+
+                    <div class="skillbar-wrap">
+                        <div class="record"><div class="bar" style="width:55%;"><span>Writting</span></div><div class="p"><span>Intermedio</span></div></div>
+                        <div class="record"><div class="bar" style="width:55%;"><span>Speaking</span></div><div class="p"><span>Intermedio</span></div></div>
+                        <div class="record"><div class="bar" style="width:55%;"><span>Reading</span></div><div class="p"><span>Intermedio</span></div></div>
+                    </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          
+<!--FIN HABILIDADES-->
+
+<!--PROYECTOS_-->
+<div id="Proyectos" class="page-content">
+    <div class="content-gap mx-0">
+        <div class="main-head">
+            <div class="col-lg-3 col-md-3  offset-md-4" id="ProyectosTitle">
+            <h2>PROYECTOS</h2>
+            </div>
+        </div>
+    </div>
+
+    <!--FILTRO-->
+    <div class="store-wrapper">
+        <div class="category-list">
+            <div class="row">
+                <div class="categorias" >
+                    <div class="col-lg-2  col-md-4 col-sm-6 btn-menu">
+                        <a href="#"  class="category_item ct_item-active" category="all">Todo</a>
+                    </div>
+                    <div class="col-lg-2  col-md-4 col-sm-6 btn-menu">
+                        <a href="#"  class="category_item" category="Video">Video</a>
+                    </div>
+                    <div class="col-lg-2  col-md-4 col-sm-6 pr-4 btn-menu">
+                        <a href="#"  class="category_item" category="Fotografía">Fotografía</a>
+                    </div>
+                    <div class="col-lg-2  col-md-4 col-sm-6 text-center btn-menu">
+                        <a href="#"  class="category_item" category="Modelado 3D">Modelos 3D</a>
+                    </div>
+                    <div class="col-lg-2  col-md-4 col-sm-6 btn-menu">
+                        <a href="#"  class="category_item" category="Ilustración">Ilustración</a>
+                    </div>
+                    <div class="col-lg-2  col-md-4 col-sm-6 btn-menu">
+                            <a href="#"  class="category_item" category="Animación">Animación</a>
+                    </div>
+                    <!-- <div class="col-lg-1  col-md-4 col-sm-6">
+                        <a href="#" >Otro</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIN FILTRO-->
+    
+    <div class=" row products-list" id="projects-container">
+            <!-- <div class="row product-item" id="projects-container" > </div> -->
+    </div>
+    <!-- <div class="row product-item" id="projects-container" > </div> -->
+</div>
+
+
+    
+<!--PROYECTOS_-->
+
+<!--INICIO CONTACTO 2-->
+<div id="Contacto" class="page-content zero-pad">
+    <div class="content-gap">
+        <div class="container">
+            <div class="main-head">
+                <h2>CONTACTAME</h2>
+            </div>
+            <div class="row">
+            
+                <div class="col-sm-12 col-lg-6">
+                    <form novalidate id="contact_form" method="post" action="#">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-0">
+                                <input type="text" placeholder="Nombre" class="form-control" id="name" name="name">
+                            </div>
+                            <div class="col-sm-4 col-md-0">
+                                <input type="text" placeholder="Email" class="form-control" id="email" name="email">
+                            </div>
+                            <div class="col-sm-4 col-md-0">
+                                <input type="text" placeholder="Telefono" class="form-control" id="phone" name="phone">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            
+                        
+                            <div class="col-sm-6 col-lg-8" id="Pais_">
+                                <label for="fecha">País</label><br>
+                                <select name="pais">
+                                    <option value="Elegir" id="AF">Elegir opción</option>
+                                    <option value="Afganistán" id="AF">Afganistán</option>
+                                    <option value="Albania" id="AL">Albania</option>
+                                    <option value="Alemania" id="DE">Alemania</option>
+                                    <option value="Andorra" id="AD">Andorra</option>
+                                    <option value="Angola" id="AO">Angola</option>
+                                    <option value="Anguila" id="AI">Anguila</option>
+                                    <option value="Antártida" id="AQ">Antártida</option>
+                                    <option value="Antigua y Barbuda" id="AG">Antigua y Barbuda</option>
+                                    <option value="Antillas holandesas" id="AN">Antillas holandesas</option>
+                                    <option value="Arabia Saudí" id="SA">Arabia Saudí</option>
+                                    <option value="Argelia" id="DZ">Argelia</option>
+                                    <option value="Argentina" id="AR">Argentina</option>
+                                    <option value="Armenia" id="AM">Armenia</option>
+                                    <option value="Aruba" id="AW">Aruba</option>
+                                    <option value="Australia" id="AU">Australia</option>
+                                    <option value="Austria" id="AT">Austria</option>
+                                    <option value="Azerbaiyán" id="AZ">Azerbaiyán</option>
+                                    <option value="Bahamas" id="BS">Bahamas</option>
+                                    <option value="Bahrein" id="BH">Bahrein</option>
+                                    <option value="Bangladesh" id="BD">Bangladesh</option>
+                                    <option value="Barbados" id="BB">Barbados</option>
+                                    <option value="Bélgica" id="BE">Bélgica</option>
+                                    <option value="Belice" id="BZ">Belice</option>
+                                    <option value="Benín" id="BJ">Benín</option>
+                                    <option value="Bermudas" id="BM">Bermudas</option>
+                                    <option value="Bhután" id="BT">Bhután</option>
+                                    <option value="Bielorrusia" id="BY">Bielorrusia</option>
+                                    <option value="Birmania" id="MM">Birmania</option>
+                                    <option value="Bolivia" id="BO">Bolivia</option>
+                                    <option value="Bosnia y Herzegovina" id="BA">Bosnia y Herzegovina</option>
+                                    <option value="Botsuana" id="BW">Botsuana</option>
+                                    <option value="Brasil" id="BR">Brasil</option>
+                                    <option value="Brunei" id="BN">Brunei</option>
+                                    <option value="Bulgaria" id="BG">Bulgaria</option>
+                                    <option value="Burkina Faso" id="BF">Burkina Faso</option>
+                                    <option value="Burundi" id="BI">Burundi</option>
+                                    <option value="Cabo Verde" id="CV">Cabo Verde</option>
+                                    <option value="Camboya" id="KH">Camboya</option>
+                                    <option value="Camerún" id="CM">Camerún</option>
+                                    <option value="Canadá" id="CA">Canadá</option>
+                                    <option value="Chad" id="TD">Chad</option>
+                                    <option value="Chile" id="CL">Chile</option>
+                                    <option value="China" id="CN">China</option>
+                                    <option value="Chipre" id="CY">Chipre</option>
+                                    <option value="Ciudad estado del Vaticano" id="VA">Ciudad estado del Vaticano</option>
+                                    <option value="Colombia" id="CO">Colombia</option>
+                                    <option value="Comores" id="KM">Comores</option>
+                                    <option value="Congo" id="CG">Congo</option>
+                                    <option value="Corea" id="KR">Corea</option>
+                                    <option value="Corea del Norte" id="KP">Corea del Norte</option>
+                                    <option value="Costa del Marfíl" id="CI">Costa del Marfíl</option>
+                                    <option value="Costa Rica" id="CR">Costa Rica</option>
+                                    <option value="Croacia" id="HR">Croacia</option>
+                                    <option value="Cuba" id="CU">Cuba</option>
+                                    <option value="Dinamarca" id="DK">Dinamarca</option>
+                                    <option value="Djibouri" id="DJ">Djibouri</option>
+                                    <option value="Dominica" id="DM">Dominica</option>
+                                    <option value="Ecuador" id="EC">Ecuador</option>
+                                    <option value="Egipto" id="EG">Egipto</option>
+                                    <option value="El Salvador" id="SV">El Salvador</option>
+                                    <option value="Emiratos Arabes Unidos" id="AE">Emiratos Arabes Unidos</option>
+                                    <option value="Eritrea" id="ER">Eritrea</option>
+                                    <option value="Eslovaquia" id="SK">Eslovaquia</option>
+                                    <option value="Eslovenia" id="SI">Eslovenia</option>
+                                    <option value="España" id="ES">España</option>
+                                    <option value="Estados Unidos" id="US">Estados Unidos</option>
+                                    <option value="Estonia" id="EE">Estonia</option>
+                                    <option value="c" id="ET">Etiopía</option>
+                                    <option value="Ex-República Yugoslava de Macedonia" id="MK">Ex-República Yugoslava de Macedonia</option>
+                                    <option value="Filipinas" id="PH">Filipinas</option>
+                                    <option value="Finlandia" id="FI">Finlandia</option>
+                                    <option value="Francia" id="FR">Francia</option>
+                                    <option value="Gabón" id="GA">Gabón</option>
+                                    <option value="Gambia" id="GM">Gambia</option>
+                                    <option value="Georgia" id="GE">Georgia</option>
+                                    <option value="Georgia del Sur y las islas Sandwich del Sur" id="GS">Georgia del Sur y las islas Sandwich del Sur</option>
+                                    <option value="Ghana" id="GH">Ghana</option>
+                                    <option value="Gibraltar" id="GI">Gibraltar</option>
+                                    <option value="Granada" id="GD">Granada</option>
+                                    <option value="Grecia" id="GR">Grecia</option>
+                                    <option value="Groenlandia" id="GL">Groenlandia</option>
+                                    <option value="Guadalupe" id="GP">Guadalupe</option>
+                                    <option value="Guam" id="GU">Guam</option>
+                                    <option value="Guatemala" id="GT">Guatemala</option>
+                                    <option value="Guayana" id="GY">Guayana</option>
+                                    <option value="Guayana francesa" id="GF">Guayana francesa</option>
+                                    <option value="Guinea" id="GN">Guinea</option>
+                                    <option value="Guinea Ecuatorial" id="GQ">Guinea Ecuatorial</option>
+                                    <option value="Guinea-Bissau" id="GW">Guinea-Bissau</option>
+                                    <option value="Haití" id="HT">Haití</option>
+                                    <option value="Holanda" id="NL">Holanda</option>
+                                    <option value="Honduras" id="HN">Honduras</option>
+                                    <option value="Hong Kong R. A. E" id="HK">Hong Kong R. A. E</option>
+                                    <option value="Hungría" id="HU">Hungría</option>
+                                    <option value="India" id="IN">India</option>
+                                    <option value="Indonesia" id="ID">Indonesia</option>
+                                    <option value="Irak" id="IQ">Irak</option>
+                                    <option value="Irán" id="IR">Irán</option>
+                                    <option value="Irlanda" id="IE">Irlanda</option>
+                                    <option value="Isla Bouvet" id="BV">Isla Bouvet</option>
+                                    <option value="Isla Christmas" id="CX">Isla Christmas</option>
+                                    <option value="Isla Heard e Islas McDonald" id="HM">Isla Heard e Islas McDonald</option>
+                                    <option value="Islandia" id="IS">Islandia</option>
+                                    <option value="Islas Caimán" id="KY">Islas Caimán</option>
+                                    <option value="Islas Cook" id="CK">Islas Cook</option>
+                                    <option value="Islas de Cocos o Keeling" id="CC">Islas de Cocos o Keeling</option>
+                                    <option value="Islas Faroe" id="FO">Islas Faroe</option>
+                                    <option value="Islas Fiyi" id="FJ">Islas Fiyi</option>
+                                    <option value="Islas Malvinas Islas Falkland" id="FK">Islas Malvinas Islas Falkland</option>
+                                    <option value="Islas Marianas del norte" id="MP">Islas Marianas del norte</option>
+                                    <option value="Islas Marshall" id="MH">Islas Marshall</option>
+                                    <option value="Islas menores de Estados Unidos" id="UM">Islas menores de Estados Unidos</option>
+                                    <option value="Islas Palau" id="PW">Islas Palau</option>
+                                    <option value="Islas Salomón" d="SB">Islas Salomón</option>
+                                    <option value="Islas Tokelau" id="TK">Islas Tokelau</option>
+                                    <option value="Islas Turks y Caicos" id="TC">Islas Turks y Caicos</option>
+                                    <option value="Islas Vírgenes EE.UU." id="VI">Islas Vírgenes EE.UU.</option>
+                                    <option value="Islas Vírgenes Reino Unido" id="VG">Islas Vírgenes Reino Unido</option>
+                                    <option value="Israel" id="IL">Israel</option>
+                                    <option value="Italia" id="IT">Italia</option>
+                                    <option value="Jamaica" id="JM">Jamaica</option>
+                                    <option value="Japón" id="JP">Japón</option>
+                                    <option value="Jordania" id="JO">Jordania</option>
+                                    <option value="Kazajistán" id="KZ">Kazajistán</option>
+                                    <option value="Kenia" id="KE">Kenia</option>
+                                    <option value="Kirguizistán" id="KG">Kirguizistán</option>
+                                    <option value="Kiribati" id="KI">Kiribati</option>
+                                    <option value="Kuwait" id="KW">Kuwait</option>
+                                    <option value="Laos" id="LA">Laos</option>
+                                    <option value="Lesoto" id="LS">Lesoto</option>
+                                    <option value="Letonia" id="LV">Letonia</option>
+                                    <option value="Líbano" id="LB">Líbano</option>
+                                    <option value="Liberia" id="LR">Liberia</option>
+                                    <option value="Libia" id="LY">Libia</option>
+                                    <option value="Liechtenstein" id="LI">Liechtenstein</option>
+                                    <option value="Lituania" id="LT">Lituania</option>
+                                    <option value="Luxemburgo" id="LU">Luxemburgo</option>
+                                    <option value="Macao R. A. E" id="MO">Macao R. A. E</option>
+                                    <option value="Madagascar" id="MG">Madagascar</option>
+                                    <option value="Malasia" id="MY">Malasia</option>
+                                    <option value="Malawi" id="MW">Malawi</option>
+                                    <option value="Maldivas" id="MV">Maldivas</option>
+                                    <option value="Malí" id="ML">Malí</option>
+                                    <option value="Malta" id="MT">Malta</option>
+                                    <option value="Marruecos" id="MA">Marruecos</option>
+                                    <option value="Martinica" id="MQ">Martinica</option>
+                                    <option value="Mauricio" id="MU">Mauricio</option>
+                                    <option value="Mauritania" id="MR">Mauritania</option>
+                                    <option value="Mayotte" id="YT">Mayotte</option>
+                                    <option value="México" id="MX">México</option>
+                                    <option value="Micronesia" id="FM">Micronesia</option>
+                                    <option value="Moldavia" id="MD">Moldavia</option>
+                                    <option value="Mónaco" id="MC">Mónaco</option>
+                                    <option value="Mongolia" id="MN">Mongolia</option>
+                                    <option value="Montserrat" id="MS">Montserrat</option>
+                                    <option value="Mozambique" id="MZ">Mozambique</option>
+                                    <option value="Namibia" id="NA">Namibia</option>
+                                    <option value="Nauru" id="NR">Nauru</option>
+                                    <option value="Nepal" id="NP">Nepal</option>
+                                    <option value="Nicaragua" id="NI">Nicaragua</option>
+                                    <option value="Níger" id="NE">Níger</option>
+                                    <option value="Nigeria" id="NG">Nigeria</option>
+                                    <option value="Niue" id="NU">Niue</option>
+                                    <option value="Norfolk" id="NF">Norfolk</option>
+                                    <option value="Noruega" id="NO">Noruega</option>
+                                    <option value="Nueva Caledonia" id="NC">Nueva Caledonia</option>
+                                    <option value="Nueva Zelanda" id="NZ">Nueva Zelanda</option>
+                                    <option value="Omán" id="OM">Omán</option>
+                                    <option value="Panamá" id="PA">Panamá</option>
+                                    <option value="Papua Nueva Guinea" id="PG">Papua Nueva Guinea</option>
+                                    <option value="Paquistán" id="PK">Paquistán</option>
+                                    <option value="Paraguay" id="PY">Paraguay</option>
+                                    <option value="Perú" id="PE">Perú</option>
+                                    <option value="Pitcairn" id="PN">Pitcairn</option>
+                                    <option value="Polinesia francesa" id="PF">Polinesia francesa</option>
+                                    <option value="Polonia" id="PL">Polonia</option>
+                                    <option value="Portugal" id="PT">Portugal</option>
+                                    <option value="Puerto Rico" id="PR">Puerto Rico</option>
+                                    <option value="Qatar" id="QA">Qatar</option>
+                                    <option value="Reino Unido" id="UK">Reino Unido</option>
+                                    <option value="República Centroafricana" id="CF">República Centroafricana</option>
+                                    <option value="República Checa" id="CZ">República Checa</option>
+                                    <option value="República de Sudáfrica" id="ZA">República de Sudáfrica</option>
+                                    <option value="República Democrática del Congo Zaire" id="CD">República Democrática del Congo Zaire</option>
+                                    <option value="República Dominicana" id="DO">República Dominicana</option>
+                                    <option value="Reunión" id="RE">Reunión</option>
+                                    <option value="Ruanda" id="RW">Ruanda</option>
+                                    <option value="Rumania" id="RO">Rumania</option>
+                                    <option value="Rusia" id="RU">Rusia</option>
+                                    <option value="Samoa" id="WS">Samoa</option>
+                                    <option value="Samoa occidental" id="AS">Samoa occidental</option>
+                                    <option value="San Kitts y Nevis" id="KN">San Kitts y Nevis</option>
+                                    <option value="San Marino" id="SM">San Marino</option>
+                                    <option value="San Pierre y Miquelon" id="PM">San Pierre y Miquelon</option>
+                                    <option value="San Vicente e Islas Granadinas" id="VC">San Vicente e Islas Granadinas</option>
+                                    <option value="Santa Helena" id="SH">Santa Helena</option>
+                                    <option value="Santa Lucía" id="LC">Santa Lucía</option>
+                                    <option value="Santo Tomé y Príncipe" id="ST">Santo Tomé y Príncipe</option>
+                                    <option value="Senegal" id="SN">Senegal</option>
+                                    <option value="Serbia y Montenegro" id="YU">Serbia y Montenegro</option>
+                                    <option value="Sychelles" id="SC">Seychelles</option>
+                                    <option value="Sierra Leona" id="SL">Sierra Leona</option>
+                                    <option value="Singapur" id="SG">Singapur</option>
+                                    <option value="Siria" id="SY">Siria</option>
+                                    <option value="Somalia" id="SO">Somalia</option>
+                                    <option value="Sri Lanka" id="LK">Sri Lanka</option>
+                                    <option value="Suazilandia" id="SZ">Suazilandia</option>
+                                    <option value="Sudán" id="SD">Sudán</option>
+                                    <option value="Suecia" id="SE">Suecia</option>
+                                    <option value="Suiza" id="CH">Suiza</option>
+                                    <option value="Surinam" id="SR">Surinam</option>
+                                    <option value="Svalbard" id="SJ">Svalbard</option>
+                                    <option value="Tailandia" id="TH">Tailandia</option>
+                                    <option value="Taiwán" id="TW">Taiwán</option>
+                                    <option value="Tanzania" id="TZ">Tanzania</option>
+                                    <option value="Tayikistán" id="TJ">Tayikistán</option>
+                                    <option value="Territorios británicos del océano Indico" id="IO">Territorios británicos del océano Indico</option>
+                                    <option value="Territorios franceses del sur" id="TF">Territorios franceses del sur</option>
+                                    <option value="Timor Oriental" id="TP">Timor Oriental</option>
+                                    <option value="Togo" id="TG">Togo</option>
+                                    <option value="Tonga" id="TO">Tonga</option>
+                                    <option value="Trinidad y Tobago" id="TT">Trinidad y Tobago</option>
+                                    <option value="Túnez" id="TN">Túnez</option>
+                                    <option value="Turkmenistán" id="TM">Turkmenistán</option>
+                                    <option value="Turquía" id="TR">Turquía</option>
+                                    <option value="Tuvalu" id="TV">Tuvalu</option>
+                                    <option value="Ucrania" id="UA">Ucrania</option>
+                                    <option value="Uganda" id="UG">Uganda</option>
+                                    <option value="Uruguay" id="UY">Uruguay</option>
+                                    <option value="Uzbekistán" id="UZ">Uzbekistán</option>
+                                    <option value="Vanuatu" id="VU">Vanuatu</option>
+                                    <option value="Venezuela" id="VE">Venezuela</option>
+                                    <option value="Vietnam" id="VN">Vietnam</option>
+                                    <option value="Wallis y Futuna" id="WF">Wallis y Futuna</option>
+                                    <option value="Yemen" id="YE">Yemen</option>
+                                    <option value="Zambia" id="ZM">Zambia</option>
+                                    <option value="Zimbabue" id="ZW">Zimbabue</option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4" class="form-control" id="Persona">
+                                <label for="fecha">Persona o Empresa</label><br>
+
+                                </select>
+
+                                <select name="persona" id="persona">
+                                <option value="Persona">Persona</option>
+                                <option value="Empresa">Empresa</option>
+                                
+
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <textarea placeholder="Mensaje" rows="12" class="form-control" id="comment" name="comment"></textarea>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <button class="form-btn" type="submit">Enviar</button>
+                        </div>  
+                    </form>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="sub-head" id="Aqui">Encuentrame Aquí</div>
+                    <ul class="footer-contact">
+                        <li>
+                            
+                            <div class="icon-text"><i class="fas fa-map-marker-alt"></i>
+                                Santa Cruz Col.San Sebastián<br> Chalco, Edo. Méx Cp.56000, México
+                            </div>
+                        </li>
+                        <li>
+                            
+                            <div class="icon-text">
+                                <i class="fas fa-mobile"></i>
+                                +52 (55) 40-23-21-58
+                                
+                            </div>
+                        </li>
+                        <li>
+                            
+                            <div class="icon-text">
+                                <i class="fa fa-envelope"></i>
+                                <a href="#">michelle_marquez1999@hotmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                        <p><br></p>
+                            <div id="map-holder">
+                                <div id="map_extended">
+                                <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.6291265350997!2d-98.90795325043631!3d19.25498858692157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce194b26a8effb%3A0x1fd7d50539649e4a!2sCalle%20B.%2C%20San%20Sebastian%2C%2056600%20Chalco%20de%20D%C3%ADaz%20Covarrubias%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1599843176202!5m2!1ses!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>-->
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.6291265350997!2d-98.90795325043631!3d19.25498858692157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce194b26a8effb%3A0x1fd7d50539649e4a!2sCalle%20B.%2C%20San%20Sebastian%2C%2056600%20Chalco%20de%20D%C3%ADaz%20Covarrubias%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1599843176202!5m2!1ses!2smx"  style="border:0;" allowfullscreen=""></iframe>
+
+                                    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6624.986066388227!2d151.221839!3d-33.876954!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1582101032155!5m2!1sen!2sus" style="border:0;" allowfullscreen=""></iframe>-->
+                                </div>
+                            </div> 
+                        </li>
+                    </ul>
+                        
+                    <div class="sub-head" id="Hora">Horario</div>
+                    
+                    <ul class="footer-contact">
+                        <li>
+                            
+                            <div class="icon-text">
+                                <i class="far fa-clock"></i>
+                                <strong>Mon - Fri</strong> 10:00 AM - 6:00 PM 
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!--FIN CONTACTO 2-->
+  <!--INICIO CONTACTO-->
+  
+     
+    </div>
+
+
+        
+     
+      </div>
+      <!--FIN DE CONTAINER-->
+    </div>
+    <!--FIN DE BANNER-->
+
+    <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container text-center">
+      
+          <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                    <a class="btn-floating btn-lg btn-fb rounded-circle text-center" type="button" role="button" href="https://www.facebook.com/karla.mmr"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item">
+                    <a class="btn-floating btn-lg btn-ins rounded-circle text-center" type="button" role="button" href="https://www.instagram.com/mmrkarla/?hl=es-la"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+
+          <!-- Social buttons -->
+        </div>
+
+        <div class="container text-center">
+                <ul class="list-unstyled list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#Inicio"> INICIO</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a  href="#SobreMi">ACERCA</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a  href="#CV">CURRÍCULUM</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a  href="#Proyectos">PROYECTOS</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a  href="#Contacto">CONTACTO</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a  href="PAGES/CRUD.html">CRUD</a>
+                        </li>
+                </ul>
+        </div>
+        <!-- Footer Elements -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <medium>Michelle Márquez</medium>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-storage.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCLiDQ3FuLF0jNsH14bGNf98Uy8NorP5kI",
+    authDomain: "michelle-marquez-cv.firebaseapp.com",
+    databaseURL: "https://michelle-marquez-cv.firebaseio.com",
+    projectId: "michelle-marquez-cv",
+    storageBucket: "michelle-marquez-cv.appspot.com",
+    messagingSenderId: "579954152427",
+    appId: "1:579954152427:web:64a1c78aa944c7be89bfae",
+    measurementId: "G-XPRN4XMGBR"
+  };
+  //Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  //firebase.analytics();
+</script>
+    <!-- <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script> -->
+    <script src="scripts/projects.js"></script>
+    <!-- <script src="scripts/filtro.js"></script> -->
+  </body>
+</html>
