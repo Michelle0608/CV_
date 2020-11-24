@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+* {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.navbar{
+  background-color: #f4b444
+}
+#tasks-container{
+line-height: 2px !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.container {
+  /*background-color: none;
+  margin: 0px !important;*/
+  padding: 0px !important;
+}
+.date-wrap {
+  background: #d1cdcd;
+  padding-right: 3px;
+}
+#DescargaCV1 {
+  background-color: #f8f4f4;
+  margin: 0px;
+  padding: 0px;
+}
+#DescargaCV {
+  font-size: 18px;
+  padding: 3px 5px;
+  font-weight: 400;
+  color: #ffffff;
+  background: #b4db6c;
+  margin: 0px;
+}
+#Home {
+  padding-top: 180px;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  align-content: center;
+}
+#SobreMi .main-head,
+#CV .main-head,
+#Habilidades .main-head,
+#Proyectos .main-head {
+  /* margin-left: 500px;
+  margin-bottom: 25px;*/
+  align-content: center;
+
+  padding: 5px;
+}
+.main-head {
+  align-content: center !important;
+}
+
+h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 150px;
+  color: #fbeb84;
+}
+#Home p {
+  font-family: "Kaushan Script", cursive;
+  font-size: 70px;
+}
+.logo img {
+  width: 10%;
+  height: 10%;
+}
+.nav-link {
+  color: white;
+  size: 20px;
+}
+
+.content-gap h2 {
+  align-content: center;
+}
+h2 {
+  text-align: center;
+  color: #555a5a;
+  background-color: #fbeb84;
+
+  font-size: 18px;
+
+  font-weight: 400;
+  margin: 0px;
+}
+#Inicial p {
+  color: white;
+}
+.navbar-nav li a {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+.navbar-collapse {
+  border-color: white;
+}
+#Inicial {
+  margin: 0px;
+  /* background-image: url("../IMG/Foto.png"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 800px;
+  line-height: 4rem;
+}
+.category_item {
+  display: block;
+	width: 90%;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	
+
+	text-align: center;
+	text-decoration: none;
+	color: grey;
+}
+
+
+
+#Acerca p {
+  padding: 70px 40px 20px 40px;
+  text-decoration: justify-content;
+}
+#Info {
+  text-align: center;
+  background-color: #4cd4c4;
+
+  padding: 2px 15px 2px 15px;
+}
+
+#Lista-Info li {
+  background-color: #b4db6c;
+  text-decoration: none;
+  padding: 5px;
+}
+
+table {
+  margin-top: 15px;
+  background-color: #b4db6c;
+}
+
+#bottom li {
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+}
+#bottom li a {
+  padding: 8px 6px;
+  color: #555a5a;
+  background-color: #fbeb84;
+  text-decoration: none;
+  /*text-align: center;*/
+}
+.btn-fb{
+  background-color: #3b5998 !important;
+}
+
+.btn-ins {
+  
+  background-color: #2e5e86 !important;
+}
+.btn-floating i {
+  display: inline-block;
+  width: inherit;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+.btn-floating {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+  transition: all .2s ease-in-out;
+ 
+}
+
+.categorias a {
+	color: #9B9B9B;
+	margin: 10px 20px;
+	font-size: 18px;
+	font-weight: 700;
+} 
+
+.category_list .ct_item-active{
+  color: purple !important;
+}   
+.row{
+  justify-content: center;
+} 
+.categorias {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.categorias a.activo {
+	color: #000;
+}
+
+.chart {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 3.5px solid transparent;
+  background: linear-gradient(#ccc, #ccc) padding-box,
+    linear-gradient(var(--v), #f4b444 50%, transparent 0) border-box,
+    linear-gradient(to right, #f2f2f2 50%, #f4b444 0) border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  text-align: center;
+}
+.chart p {
+  font-size: 13px;
+  color: #4b4a4a;
+
+  align-content: center;
+  position: center;
+  z-index: 1;
+}
+
+.skill-name {
+  padding-left: 20px;
+}
+#menu {
+  background-color: #f8f4f4;
+}
+
+#SobreMi,
+#CV,
+#Habilidades,
+#Proyectos,
+#Contacto {
+  padding: 35px;
+  background-color: #f8f4f4;
+}
+
+.img-fluid {
+  display: flex;
+}
+
+.sub-head {
+  text-align: center;
+  background-color: #4cd4c4;
+}
+.container {
+  width: 300px;
+  font-family: Arial;
+}
+
+.record {
+  float: left;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  margin-bottom: 2px;
+  -moz-border-radius: 0px 10px 10px 0px;
+  -moz-border-radius: 0px 10px 10px 0px;
+}
+
+.bar {
+  background: transparent url(gradient.png) repeat-x top left;
+  float: left;
+  clear: left;
+  height: 30px;
+}
+
+.bar span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #f4b444;
+  float: left;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.p {
+  padding-top: 3px;
+  float: right;
+  color: #6d8591;
+  clear: right;
+  font-size: 12px;
+  font-weight: bold;
+  height: 25px;
+}
+
+.p span {
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+#Contacto {
+  margin: 0px;
+}
+#Contactotitle,
+#ProyectosTitle,
+#AcercaTitle {
+  margin-bottom: 35px;
+}
+#Pais_ {
+  padding-top: 15px;
+}
+/* .modal-header .close {
+  padding: 0px;
+  margin: 0px;
+} */
+
+#pais{
+  width: 2px;
+}
+#Persona {
+  padding-top: 15px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(0, 0, 0);
+} 
+
+#Contacto li {
+  list-style-type: none;
+}
+
+#Contacto textarea {
+  margin-top: 20px;
+}
+
+#Contacto button {
+  padding: 2px 6px 2px 6px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+  color: white;
+  background-color: #f3745c;
+  text-decoration: none;
+}
+#Hora,
+#Aqui {
+  margin-bottom: 10px;
+}
+
+#map-holder {
+  width: 100%;
+}
+#NavbarMenu {
+  background-color: transparent;
+}
+
+@media (min-widht: 300px) {
+  #Home {
+    padding-top: 20px;
+  }
+  #Home h1 {
+    font-size: 0.5rem;
+    margin: 0px;
+    padding: 0px;
+  }
+  #Redees {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #Home p {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  #Inicial {
+    size: 100%;
+  }
+  #Inicial h1 {
+    font-size: 0.5rem;
+    margin: 0px;
+  }
+  #Inicial p {
+    font-size: 0.5rem;
+  }
+  #Habilidades .row {
+    align-content: center;
+  }
+  #SobreMi .main-head {
+    margin-left: 10px;
+  }
+  #Contacto .sub-head {
+    margin-top: 10px;
+  }
+}
+
+@media (max-widht: 600px){
+  #Home p{
+    font-size: 5px !important;
+    line-height: 0px !important;
+  }
+
+  #Inicial{
+    line-height: 2rem;
+  }
+
+  h1{
+    font-size: 0.5rem;
+  }
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+
+
+@media screen and (max-width: 900px){
+	.category_list{
+		width: 100%;
+	}
+
+	.category_list{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.category_list .category_item{
+		align-self: flex-start;
+		width: 15%;
+		font-size: 14px;
+	}
+
+
+	
+}
+
+@media screen and (max-width: 700px){
+	.category_list{
+		flex-direction: column;
+	}
+	.category_list .category_item{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}

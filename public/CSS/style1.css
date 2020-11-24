@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+* {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.navbar{
+  background-color: #f4b444
+}
+#Home {
+  padding-top: 180px;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  align-content: center;
+}
+.btn-fb{
+  background-color: #3b5998 !important;
+}
+
+.btn-ins {
+  
+  background-color: #2e5e86 !important;
+}
+.btn-floating i {
+  display: inline-block;
+  width: inherit;
+  color: #fff;
+  text-align: center;
+}
+
+.btn-floating {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+  transition: all .2s ease-in-out;
+ 
+}
+h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 150px;
+  color: #fbeb84;
+}
+#Home p {
+  font-family: "Kaushan Script", cursive;
+  font-size: 70px;
+}
+.logo img {
+  width: 10%;
+  height: 10%;
+}
+.nav-link {
+  color: white;
+  size: 20px;
+}
+
+.content-gap h2 {
+  align-content: center;
+}
+h2 {
+  text-align: center;
+  color: #555a5a;
+  background-color: #fbeb84;
+  text-decoration: none;
+  height: "auto";
+
+  padding: 2px 15px 2px 15px;
+}
+#Inicial p {
+  color: white;
+}
+.navbar-nav li a {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+.navbar-nav {
+  background-color: transparent;
+}
+
+#Inicial {
+  margin: 0px;
+  background-image: url("../IMG/Dias-en-cuarentena.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 800px;
+}
+
+@media (max-widht: 600px) {
+  .navbar-nav li a {
+    font-size: 4px;
+  }
+}
